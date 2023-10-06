@@ -6,7 +6,7 @@ let book = {
     author : "Derren Brown",
     numberOfPages : 500,
     print : function () {
-        console.log(this.title)
+        console.log(this.title) //used this so it refers to current object
         console.log(this.author)
         console.log(this.numberOfPages)
     }
